@@ -1,0 +1,41 @@
+.mandala-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mandala-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mandala-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain; /* Alterado de 'cover' para 'contain' para mandalas */
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.mandala-card h3 {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+  color: #264653;
+}
+
+.mandala-card p {
+  padding: 0.5rem 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.price {
+  display: block;
+  padding: 0 1rem 1rem;
+  font-weight: bold;
+  color: #2a9d8f;
+  font-size: 1.1rem;
+}

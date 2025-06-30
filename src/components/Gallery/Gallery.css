@@ -1,6 +1,72 @@
-.gallery {
+/* =================================================================
+   GALLERY.CSS - Estilos para a Página da Galeria
+   ================================================================= */
+
+/* 1. Container Principal da Página
+   ----------------------------------------------------------------- */
+.gallery-page {
+  width: 100%;
+}
+
+/* 2. Seção do Banner (Hero)
+   ----------------------------------------------------------------- */
+.gallery-hero {
+  background-color: var(--primary-color);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  box-sizing: border-box;
+  
+  /* Garante o espaçamento correto em relação à navbar */
+  padding-top: calc(var(--navbar-height) + 2rem);
+  padding-bottom: 3rem;
+  
+  color: var(--white-color);
+  text-align: center;
+}
+
+.gallery-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.gallery-hero h1 {
+  color: var(--white-color);
+  font-size: 3rem;
+}
+
+.gallery-hero p {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* 3. Container do Conteúdo da Galeria
+   ----------------------------------------------------------------- */
+.gallery-content-wrapper {
+  /* Usa o .page-container global para o alinhamento */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  padding: 2rem;
+}
+
+/* 4. Responsividade
+   ----------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .gallery-hero h1 {
+    font-size: 2.5rem;
+  }
+  .gallery-content-wrapper {
+    padding: 2rem 1rem;
+  }
 }

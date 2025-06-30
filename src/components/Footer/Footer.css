@@ -1,0 +1,30 @@
+/* =================================================================
+   FOOTER.CSS - Estilos para o Rodapé do Site
+   ================================================================= */
+.site-footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 2rem;
+  text-align: center;
+  /* Garante que o footer fique no final da página se o conteúdo for curto */
+  margin-top: auto; 
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.footer-content p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.heart-icon {
+  color: #e74c3c; /* Um tom de vermelho para o coração */
+  font-size: 0.9rem;
+}

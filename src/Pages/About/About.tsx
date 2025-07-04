@@ -29,7 +29,7 @@ export const About = () => {
         </div>
         <div className="about-hero-image-wrapper">
           <img 
-            src="https://placehold.co/600x800/40916c/FFFFFF?text=Foto+Artista" 
+            src="/public/artista.png" 
             alt="Artista criando uma mandala" 
             className="about-hero-image"
           />

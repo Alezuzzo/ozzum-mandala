@@ -16,12 +16,12 @@ const fetchMandalasFromAPI = (): Promise<Mandala[]> => {
   return new Promise((resolve) => {
     setTimeout(() => {
       const mandalasFromDB: Mandala[] = [
-        { id: 1, title: 'Círculo de Fogo', imageUrl: 'https://placehold.co/600x600/ef4444/FFFFFF?text=Mandala', category: 'Intuitivas', description: 'Energia vibrante para motivação e força.' },
-        { id: 2, title: 'Oceano Profundo', imageUrl: 'https://placehold.co/600x600/3b82f6/FFFFFF?text=Mandala', category: 'Geométricas', description: 'Calma e serenidade para momentos de introspecção.' },
-        { id: 3, title: 'Jardim Secreto', imageUrl: 'https://placehold.co/600x600/22c55e/FFFFFF?text=Mandala', category: 'Florais', description: 'Conexão com a natureza e a beleza da vida.' },
-        { id: 4, title: 'Sol Dourado', imageUrl: 'https://placehold.co/600x600/eab308/FFFFFF?text=Mandala', category: 'Intuitivas', description: 'Clareza mental, otimismo e prosperidade.' },
-        { id: 5, title: 'Noite Estrelada', imageUrl: 'https://placehold.co/600x600/6d28d9/FFFFFF?text=Mandala', category: 'Geométricas', description: 'Intuição, mistério e conexão com o universo.' },
-        { id: 6, title: 'Raízes da Terra', imageUrl: 'https://placehold.co/600x600/a16207/FFFFFF?text=Mandala', category: 'Florais', description: 'Estabilidade, segurança e sentimento de pertença.' },
+        { id: 1, title: 'Mandala dos Elementos', imageUrl: '/public/icefire.jpeg', category: 'Florais', description: 'Energia vibrante para motivação e força.' },
+        { id: 2, title: 'Mandala Yin Yang', imageUrl: '/public/yngang.jpeg', category: 'Geométricas', description: 'Calma e serenidade para momentos de introspecção.' },
+        { id: 3, title: 'Lótus Celestial', imageUrl: '/public/lotus.jpeg', category: 'Florais', description: 'Conexão com a natureza e a beleza da vida.' },
+        { id: 4, title: 'Nossa Senhora', imageUrl: '/public/senhora.jpeg', category: 'Intuitivas', description: 'Clareza mental, otimismo e prosperidade.' },
+        { id: 5, title: 'Mandala em Pontilhismo', imageUrl: '/public/pontilhismo.jpeg', category: 'Geométricas', description: 'Intuição, mistério e conexão com o universo.' },
+        { id: 6, title: 'Mandala dos Elementos', imageUrl: '/public/icefire.jpeg', category: 'Florais', description: 'Estabilidade, segurança e sentimento de pertença.' },
       ];
       resolve(mandalasFromDB);
     }, 1500);

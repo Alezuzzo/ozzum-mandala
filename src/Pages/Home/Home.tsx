@@ -19,23 +19,23 @@ const fetchMandalasFromAPI = (): Promise<Mandala[]> => {
       const mandalasFromDB: Mandala[] = [
         {
           id: 1,
-          title: 'Mandala Intuitiva',
-          imageUrl: 'https://placehold.co/600x600/1e40af/FFFFFF?text=Mandala+1',
-          description: 'Criada com foco na energia e intuição do momento.',
-          category: 'Intuitivas'
+          title: 'Mandala Em Pontilhismo',
+          imageUrl: '/public/pontilhismo.jpeg',
+          description: 'Uma mandala espiralada vibrante e hipnótica, criada com a técnica de pontilhismo sobre fundo preto. A composição utiliza gotas e pontos multicoloridos dispostos em camadas espirais, representando a harmonia entre movimento, cor e simetria. As cores do arco-íris fluem em perfeita transição, criando um efeito visual dinâmico e meditativo.',
+          category: 'Decorativas'
         },
         {
           id: 2,
-          title: 'Geometria Curativa',
-          imageUrl: 'https://placehold.co/600x600/be185d/FFFFFF?text=Mandala+2',
-          description: 'Baseada em padrões da geometria sagrada para harmonização.',
-          category: 'Geométricas'
+          title: 'Lótus Celestial',
+          imageUrl: '/public/lotus.jpeg',
+          description: 'Arte circular com técnica de pontilhismo, centrada em uma delicada flor de lótus branca e dourada que simboliza pureza espiritual e iluminação. A composição é envolvida por pétalas azuis e detalhes rosados, todos dispostos com precisão em camadas circulares, evocando harmonia, equilíbrio e contemplação. A borda com folhas amarelas remete à energia e à vida, encerrando a mandala com elegância e intensidade visual.',
+          category: 'Circulares'
         },
         {
           id: 3,
-          title: 'Círculo Floral',
-          imageUrl: 'https://placehold.co/600x600/047857/FFFFFF?text=Mandala+3',
-          description: 'Inspirada na delicadeza e beleza da natureza.',
+          title: 'Mandala dos Elementos',
+          imageUrl: '/public/icefire.jpeg',
+          description: 'Esta mandala floral combina duas flores principais que representam os elementos fogo e água, dispostas harmonicamente sobre um fundo claro. Através do pontilhismo colorido e dos padrões orgânicos, a obra transmite equilíbrio entre força, serenidade e expansão. Os detalhes dourados e arabescos interligam os elementos, criando uma peça vibrante e refinada, ideal para ambientes que buscam beleza e energia harmonizadora.',
           category: 'Florais'
         },
       ];
